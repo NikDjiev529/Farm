@@ -36,18 +36,18 @@ public class AnimalService implements AnimalServiceI{
     }
     
     @Override
-    public Animal getAnimalsByName(String username) throws SQLException {
+    public Animal getAnimalsByName(String name) throws SQLException {
         try {
+            
             this.connection = dataSource.getConnection();
             try (PreparedStatement statement = connection.prepareStatement(
-                    "SELECT * FROM users WHERE username=?")) {
-                statement.setString(1, username);
+                    "SELECT * FROM cow WHERE name=?")) {
+                statement.setString(1, name);
                 ResultSet resultSet = statement.executeQuery();
                 resultSet.first();
-                Animal animal = new Animal(type);
+                Animal animal = new Animal(name);
                 animal.setName(resultSet.getString("name"));
                 animal.setWeight(resultSet.getInt("weight"));
-                animal.setPhoto();
                 return animal;
             }
         } catch (SQLException throwables) {

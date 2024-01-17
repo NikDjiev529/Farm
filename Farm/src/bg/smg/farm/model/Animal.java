@@ -8,8 +8,11 @@ package bg.smg.farm.model;
 import java.io.File;
 
 public class Animal {
-    public Animal(String type){
+    String name;
+    int weight;
     
+    public Animal(String type){
+   
     }
 
     public void setName(String name) {
@@ -20,10 +23,6 @@ public class Animal {
         this.weight = weight;
     }
 
-    public void setPhoto(File photo) {
-        this.photo = photo;
-    }
-
     public String getName() {
         return name;
     }
@@ -31,12 +30,6 @@ public class Animal {
     public int getWeight() {
         return weight;
     }
-
-    public File getPhoto() {
-        return photo;
-    }
-    String name;
-    int weight;
-    File photo;
+ 
     
 }

@@ -5,8 +5,13 @@
         <group>
             <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/services/UserService.java</file>
             <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/util/DBManager.java</file>
+            <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/model/Animal.java</file>
+            <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/model/User.java</file>
+            <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/services/UserServiceI.java</file>
             <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/services/AnimalService.java</file>
+            <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/services/AnimalServiceI.java</file>
             <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/sql/insert_script.sql</file>
+            <file>file://dc02/Students_Redirect/smgCCFE/Documents/Nikola%2010d_Program_Java/Farm/src/bg/smg/farm/sql/create_script.sql</file>
         </group>
     </open-files>
 </project-private>

@@ -8,4 +8,5 @@
  * Created: Dec 19, 2023
  */
 
-INSERT INTO `users`(`username`, `password`, `is_active`) VALUES ('user1','cGFzc3dvcmQxMjM0NTY=', 1);
+INSERT INTO users(username, password, is_active) VALUES ('user1','cGFzc3dvcmQxMjM0NTY=', 1);
+INSERT INTO cow(name, weight) VALUES('milka', 500);
